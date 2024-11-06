@@ -8,11 +8,11 @@ public class AttackBox : MonoBehaviour
     public float attackForceBase;
     public float attackForceScale;
     public Vector2 attackDirection;
-    public float knockbackStunTime;
+    [HideInInspector] public float knockbackStunTime;
     public int attackDMG;
 
     public attacks attack;
-    public bool disjointedHitbox;
+    [HideInInspector] public bool disjointedHitbox;
 
     private NetworkBehaviour playerController;
 
@@ -95,7 +95,7 @@ public struct attackBoxDetails
     public float attackForceBase;
     public float attackForceScale;
     public Vector2 attackDirection;
-    public float knockbackStunTime;
+    [HideInInspector] public float knockbackStunTime;
     public int attackDMG;
     public string attackName;
     public attacks attack;
