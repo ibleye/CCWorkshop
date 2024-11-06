@@ -633,7 +633,7 @@ MonoBehaviour:
     pushDirection: {x: 2, y: -1}
     pushForce: 1500
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -656,7 +656,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   neutralLightDetails:
   - resetVelocity: 0
     moveDuringLifetime: 0
@@ -680,7 +680,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 1
     speedModifier: 0
@@ -703,7 +703,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   sideLightDetails:
   - resetVelocity: 0
     moveDuringLifetime: 0
@@ -727,7 +727,7 @@ MonoBehaviour:
     pushDirection: {x: 10, y: 1}
     pushForce: 1100
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -782,11 +782,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Aries2
-    attackForceBase: 2100
-    attackForceScale: 17
+    attackForceBase: 5000
+    attackForceScale: 3
     attackDirection: {x: 0, y: 1}
     knockbackStunTime: 0.6
-    attackDMG: 15
+    attackDMG: 50
     pos: {x: 2.5885, y: -0.2228, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 3.22635, y: 0.5436744, z: 1}
@@ -797,7 +797,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   taurusDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -821,7 +821,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -844,7 +844,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 2
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -852,11 +852,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Taurus1
-    attackForceBase: 2200
-    attackForceScale: 18
+    attackForceBase: 2500
+    attackForceScale: 30
     attackDirection: {x: 1, y: 3}
     knockbackStunTime: 0.5
-    attackDMG: 14
+    attackDMG: 3
     pos: {x: 0.28, y: 0.618, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 2.654124, y: 0.9981043, z: 1}
@@ -867,7 +867,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: 5}
     pushForce: 3000
     ParticleSystemID: 1
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -890,7 +890,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 1
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   geminiDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -914,7 +914,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -922,11 +922,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Gemini2
-    attackForceBase: 1700
+    attackForceBase: 5000
     attackForceScale: 10
     attackDirection: {x: 10, y: 3}
     knockbackStunTime: 0.2
-    attackDMG: 12
+    attackDMG: 28
     pos: {x: 3.61, y: 0, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 2.05, y: 1.27, z: 1}
@@ -937,7 +937,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -945,11 +945,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Gemini2
-    attackForceBase: 1700
-    attackForceScale: 10
+    attackForceBase: 100
+    attackForceScale: 40
     attackDirection: {x: -10, y: 3}
     knockbackStunTime: 0.2
-    attackDMG: 12
+    attackDMG: 25
     pos: {x: -3.61, y: 0, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 2.05, y: 1.27, z: 1}
@@ -960,7 +960,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -983,7 +983,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
     attackForceScale: 0
     attackDirection: {x: 10, y: 3}
     knockbackStunTime: 0.3
-    attackDMG: 2
+    attackDMG: 40
     pos: {x: 2.79, y: 0, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 0.69, y: 0.35, z: 1}
@@ -1006,7 +1006,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1029,7 +1029,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1037,11 +1037,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Gemini1
-    attackForceBase: 10
+    attackForceBase: 200
     attackForceScale: 0
     attackDirection: {x: -10, y: 3}
     knockbackStunTime: 0.3
-    attackDMG: 2
+    attackDMG: 6
     pos: {x: -2.79, y: 0, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 0.69, y: 0.35, z: 1}
@@ -1052,7 +1052,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1075,7 +1075,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   cancerDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1099,7 +1099,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 1
     speedModifier: 0
@@ -1107,11 +1107,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Cancer1
-    attackForceBase: 2000
-    attackForceScale: 10
+    attackForceBase: 5000
+    attackForceScale: 0
     attackDirection: {x: 1, y: 3}
     knockbackStunTime: 0.3
-    attackDMG: 7
+    attackDMG: 17
     pos: {x: 0.6, y: 0.531, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 1.743277, y: 1.232905, z: 1}
@@ -1122,7 +1122,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 3000
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 1
     speedModifier: 0
@@ -1145,7 +1145,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: 0}
     pushForce: 200
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 1
     speedModifier: 0
@@ -1153,11 +1153,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Cancer2
-    attackForceBase: 1000
-    attackForceScale: 10
+    attackForceBase: 2300
+    attackForceScale: 17
     attackDirection: {x: 1, y: -3}
     knockbackStunTime: 0.3
-    attackDMG: 5
+    attackDMG: 0
     pos: {x: 1, y: 0, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 2.14035, y: 1.095469, z: 1}
@@ -1168,7 +1168,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: -5}
     pushForce: 1000
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1191,7 +1191,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   leoDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1200,11 +1200,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Leo1
-    attackForceBase: 2700
-    attackForceScale: 9.5
+    attackForceBase: 250
+    attackForceScale: 50
     attackDirection: {x: 2, y: 1}
     knockbackStunTime: 0.4
-    attackDMG: 17
+    attackDMG: 1
     pos: {x: 0.45, y: 0.18, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 1.5, y: 0.56, z: 1}
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     pushDirection: {x: 10, y: 5}
     pushForce: 1400
     ParticleSystemID: 3
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1238,7 +1238,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   virgoDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1262,7 +1262,7 @@ MonoBehaviour:
     pushDirection: {x: -3, y: 6}
     pushForce: 1000
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1270,11 +1270,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Virgo1
-    attackForceBase: 2000
-    attackForceScale: 13
+    attackForceBase: 1200
+    attackForceScale: 7
     attackDirection: {x: 1.5, y: -1}
     knockbackStunTime: 0.2
-    attackDMG: 11
+    attackDMG: 34
     pos: {x: 1.69, y: -0.19, z: 0}
     rot: {x: 0, y: 0, z: -18.38}
     sca: {x: 5.05, y: 0.83, z: 1}
@@ -1285,7 +1285,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1308,7 +1308,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   libraDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1332,7 +1332,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1355,7 +1355,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 2750
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1378,7 +1378,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 500
     ParticleSystemID: 4
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1401,7 +1401,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 100
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1447,7 +1447,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   scorpioDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1456,11 +1456,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Scorpio1
-    attackForceBase: 1200
-    attackForceScale: 12
+    attackForceBase: 100
+    attackForceScale: 60
     attackDirection: {x: 1, y: 10}
     knockbackStunTime: 0.3
-    attackDMG: 5
+    attackDMG: 12
     pos: {x: 1.1169, y: 0.3035, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 2.515448, y: 0.3690737, z: 1}
@@ -1471,7 +1471,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1479,11 +1479,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: Scorpio2
-    attackForceBase: 200
+    attackForceBase: 1000
     attackForceScale: 0
     attackDirection: {x: 1, y: 3}
     knockbackStunTime: 0.42
-    attackDMG: 15
+    attackDMG: 2
     pos: {x: 2.78, y: 0.2049, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 0.7457, y: 0.4383867, z: 1}
@@ -1494,7 +1494,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   sagittariusDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1528,10 +1528,10 @@ MonoBehaviour:
     spawnProjectileMiddle: 0
     hitboxName: Capricorn1
     attackForceBase: 1400
-    attackForceScale: 16
+    attackForceScale: 25
     attackDirection: {x: 1.5, y: 1}
     knockbackStunTime: 0.4
-    attackDMG: 13
+    attackDMG: 15
     pos: {x: 0.65, y: 0.21, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 1.8, y: 0.53, z: 0}
@@ -1542,7 +1542,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: 0}
     pushForce: 1700
     ParticleSystemID: 5
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1565,7 +1565,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   capricornAirDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1574,11 +1574,11 @@ MonoBehaviour:
     projectileR: {fileID: 0}
     spawnProjectileMiddle: 0
     hitboxName: CapricornAir1
-    attackForceBase: 1500
+    attackForceBase: 100000
     attackForceScale: 16
     attackDirection: {x: 2, y: 1}
     knockbackStunTime: 0.3
-    attackDMG: 12
+    attackDMG: 100
     pos: {x: 0.87, y: -0.39, z: 0}
     rot: {x: 0, y: 0, z: 0}
     sca: {x: 1.54, y: 1.12, z: 0}
@@ -1589,7 +1589,7 @@ MonoBehaviour:
     pushDirection: {x: 2, y: -0.5}
     pushForce: 1000
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   aquariusDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1613,7 +1613,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1636,7 +1636,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 100
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1659,7 +1659,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 1
+    showHitboxGizmo: 0
   piscesDetails:
   - resetVelocity: 0
     moveDuringLifetime: 0
