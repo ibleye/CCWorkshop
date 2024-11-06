@@ -23,6 +23,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 23625821272205451}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
@@ -31,7 +32,6 @@ Transform:
   - {fileID: 5026387690991931354}
   - {fileID: 2326027605023535390}
   m_Father: {fileID: 4611835400110460490}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &910818575212925094
 GameObject:
@@ -64,7 +64,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5825947102384955840}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -192,13 +191,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1881886979068585170}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 0.21942115, y: 0.21942115, z: 0.32913172}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7618632570791372966}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6368735478653244038
 SpriteRenderer:
@@ -275,6 +274,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2187123012965598145}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70710576, w: 0.70710784}
   m_LocalPosition: {x: -16.5, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 1, z: 1}
@@ -282,7 +282,6 @@ Transform:
   m_Children:
   - {fileID: 2371412855211948266}
   m_Father: {fileID: 4611835400110460490}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!1 &3054166817645689221
 GameObject:
@@ -308,13 +307,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3054166817645689221}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.9448366, w: 0.32754213}
   m_LocalPosition: {x: 0.25, y: 0, z: 0}
   m_LocalScale: {x: 0.80215, y: 0.22701, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5379990147874176204}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -141.761}
 --- !u!212 &5860914495322140496
 SpriteRenderer:
@@ -402,6 +401,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3894032937962642066}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 100, z: 0}
   m_LocalScale: {x: 1.5, y: 3, z: 1}
@@ -415,7 +415,6 @@ Transform:
   - {fileID: 787834218668277045}
   - {fileID: 4611835400110460490}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3894032937962642094
 SpriteRenderer:
@@ -479,6 +478,25 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -588,7 +606,7 @@ MonoBehaviour:
   _addedNetworkObject: {fileID: 1034086345178864306}
   _networkObjectCache: {fileID: 1034086345178864306}
   attackBoxPrefab: {fileID: 2997929599168803995, guid: ce8ea7859da351d47b1ef57f741be674, type: 3}
-  debugMode: 0
+  debugMode: 1
   hitboxColor: {r: 1, g: 0.23016784, b: 0, a: 0.59607846}
   sagArrow: {fileID: 0}
   playerNumber: 0
@@ -615,7 +633,7 @@ MonoBehaviour:
     pushDirection: {x: 2, y: -1}
     pushForce: 1500
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -638,7 +656,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   neutralLightDetails:
   - resetVelocity: 0
     moveDuringLifetime: 0
@@ -662,7 +680,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 1
     speedModifier: 0
@@ -685,7 +703,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   sideLightDetails:
   - resetVelocity: 0
     moveDuringLifetime: 0
@@ -709,7 +727,7 @@ MonoBehaviour:
     pushDirection: {x: 10, y: 1}
     pushForce: 1100
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -779,7 +797,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   taurusDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -803,7 +821,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -826,7 +844,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 2
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -849,7 +867,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: 5}
     pushForce: 3000
     ParticleSystemID: 1
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -872,7 +890,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 1
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   geminiDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -896,7 +914,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -919,7 +937,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -942,7 +960,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -965,7 +983,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -988,7 +1006,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1011,7 +1029,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1034,7 +1052,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1057,7 +1075,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   cancerDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1081,7 +1099,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 1
     speedModifier: 0
@@ -1104,7 +1122,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 3000
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 1
     speedModifier: 0
@@ -1127,7 +1145,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: 0}
     pushForce: 200
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 1
     speedModifier: 0
@@ -1150,7 +1168,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: -5}
     pushForce: 1000
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1173,7 +1191,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   leoDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1197,7 +1215,7 @@ MonoBehaviour:
     pushDirection: {x: 10, y: 5}
     pushForce: 1400
     ParticleSystemID: 3
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1220,7 +1238,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   virgoDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1244,7 +1262,7 @@ MonoBehaviour:
     pushDirection: {x: -3, y: 6}
     pushForce: 1000
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1267,7 +1285,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1290,7 +1308,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   libraDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1314,7 +1332,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1337,7 +1355,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 2750
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1360,7 +1378,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 500
     ParticleSystemID: 4
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1383,7 +1401,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 100
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 0
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1406,7 +1424,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1453,7 +1471,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1476,7 +1494,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   sagittariusDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1524,7 +1542,7 @@ MonoBehaviour:
     pushDirection: {x: 1, y: 0}
     pushForce: 1700
     ParticleSystemID: 5
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1547,7 +1565,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   capricornAirDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1571,7 +1589,7 @@ MonoBehaviour:
     pushDirection: {x: 2, y: -0.5}
     pushForce: 1000
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   aquariusDetails:
   - resetVelocity: 1
     moveDuringLifetime: 0
@@ -1595,7 +1613,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1618,7 +1636,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 1}
     pushForce: 100
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   - resetVelocity: 1
     moveDuringLifetime: 0
     speedModifier: 0
@@ -1641,7 +1659,7 @@ MonoBehaviour:
     pushDirection: {x: 0, y: 0}
     pushForce: 0
     ParticleSystemID: 0
-    showHitboxGizmo: 0
+    showHitboxGizmo: 1
   piscesDetails:
   - resetVelocity: 0
     moveDuringLifetime: 0
@@ -2201,6 +2219,12 @@ Rigidbody2D:
   m_AngularDrag: 0.05
   m_GravityScale: 7
   m_Material: {fileID: 6200000, guid: edbb41213305ec64c875130a77a0af22, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
@@ -2351,6 +2375,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4108669190418573469}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 4.5, z: 0}
   m_LocalScale: {x: 1, y: -0.5, z: 1}
@@ -2358,7 +2383,6 @@ Transform:
   m_Children:
   - {fileID: 7651592510550746723}
   m_Father: {fileID: 4611835400110460490}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4583814555651601086
 GameObject:
@@ -2394,7 +2418,6 @@ RectTransform:
   - {fileID: 8023781515450775301}
   - {fileID: 4123748510287032465}
   m_Father: {fileID: 3894032937962642093}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2418,7 +2441,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 680683525
   m_SortingOrder: 100
   m_TargetDisplay: 0
@@ -2486,13 +2511,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5487673318013001353}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0000014603136, w: 1}
   m_LocalPosition: {x: 0, y: 0.37999916, z: 0}
   m_LocalScale: {x: 0.34846675, y: 0.34846675, z: 0.5227}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8157102062678986972}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &9194240630262620623
 SpriteRenderer:
@@ -2570,13 +2595,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5650308403896026928}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.34846672, y: 0.34846672, z: 0.5227}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5379990147874176204}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!212 &6484300378826623454
 SpriteRenderer:
@@ -2654,13 +2679,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6065202394743636185}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.7, y: 0.9, z: 0}
   m_LocalScale: {x: 8.000001, y: 16.000002, z: 0.14941667}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4123748510287032465}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1795951538620651108
 SpriteRenderer:
@@ -2739,13 +2764,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6940243240514871551}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.000000014901161, y: 0, z: 0}
   m_LocalScale: {x: 0.40000007, y: 0.20000003, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3894032937962642093}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2781153639101374027
 SpriteRenderer:
@@ -2801,7 +2826,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &2569930182665135604
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2818,7 +2843,8 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7019578946925085734
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,7 +2876,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4123748510287032465}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2977,6 +3002,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7463597516281619951}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
@@ -2984,7 +3010,6 @@ Transform:
   m_Children:
   - {fileID: 5786732820180896929}
   m_Father: {fileID: 3894032937962642093}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7718874185450178081
 GameObject:
@@ -3017,7 +3042,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4123748510287032465}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3086,13 +3110,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7820812050189038753}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.34846672, y: -0.34846672, z: 0.5227}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1500093275973252201}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!212 &1233724830999221516
 SpriteRenderer:
@@ -3170,13 +3194,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7941379116577563067}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.0000014305114, w: -1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.34846666, y: 0.34846666, z: 0.5227}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8597448188920758141}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -180}
 --- !u!212 &7844658565952628030
 SpriteRenderer:
@@ -3253,6 +3277,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8363089970572698977}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 16.5, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 1, z: 1}
@@ -3260,7 +3285,6 @@ Transform:
   m_Children:
   - {fileID: 5680993128333232321}
   m_Father: {fileID: 4611835400110460490}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!1 &8711551210843537837
 GameObject:
@@ -3285,6 +3309,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8711551210843537837}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3295,7 +3320,6 @@ Transform:
   - {fileID: 8157102062678986972}
   - {fileID: 8597448188920758141}
   m_Father: {fileID: 3894032937962642093}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9135161225114493129
 GameObject:
@@ -3332,7 +3356,6 @@ RectTransform:
   - {fileID: 6439889667318806807}
   - {fileID: 4851379480589477656}
   m_Father: {fileID: 5825947102384955840}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3402,6 +3425,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3894032937962642093}
     m_Modifications:
     - target: {fileID: 4179139769747010626, guid: 347a1e7ec48b5f144878ee8b744cf932, type: 3}
@@ -3457,6 +3481,9 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 347a1e7ec48b5f144878ee8b744cf932, type: 3}
 --- !u!4 &787834218668277045 stripped
 Transform:
@@ -3468,6 +3495,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3894032937962642093}
     m_Modifications:
     - target: {fileID: 3567652678237618769, guid: 7398f7a3325983845ac7b01970592875, type: 3}
@@ -3519,6 +3547,9 @@ PrefabInstance:
       value: KnockbackFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7398f7a3325983845ac7b01970592875, type: 3}
 --- !u!198 &8086686396100480586 stripped
 ParticleSystem:
@@ -3535,6 +3566,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 3894032937962642093}
     m_Modifications:
     - target: {fileID: 3567652678237618769, guid: 7398f7a3325983845ac7b01970592875, type: 3}
@@ -3586,6 +3618,9 @@ PrefabInstance:
       value: RunningFX
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7398f7a3325983845ac7b01970592875, type: 3}
 --- !u!4 &9182356658727390756 stripped
 Transform:
